@@ -62,7 +62,7 @@ body {
     color: #000;
 }
 
-.small-head {
+.small-heading {
     font-family: 'Oswald';
     font-size: 16px;
     font-weight: bold;
@@ -103,7 +103,7 @@ body {
     background-size: cover;
 }
 
-.fashn {
+.fashion {
     padding-top: 22px;
     color: #fff;
     font-size: 36px;
@@ -165,7 +165,7 @@ body {
     font-weight: 400;
 }
 
-.des {
+.description {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 4px;
@@ -192,36 +192,36 @@ body {
     padding-right: 18px;
 }
 
-.but {
+.img_button {
     display: flex;
     justify-content: space-between;
     margin: 30px;
 }
+.img_button :hover{
+    cursor: pointer;
+}
 
-.but button {
+.img_button button {
     font-size: 13px;
     padding: 15px;
     display: flex;
 }
 
-.but :first-child {
+.img_button :first-child {
     background-color: #fff;
     color: #000;
-    /* border: 2px solid #ccc; */
 }
 
-.but button img {
+.img_button button img {
     height: 15px;
     width: 15px;
     color: #000;
     background: #fff;
-    /* border: none; */
 }
 
 .last-tag {
     background-color: #000;
     color: #fff;
-    /* border: #000; */
 }
 
 .second {
@@ -243,7 +243,6 @@ body {
     color: #fff;
     min-height: 24vh;
     padding: 20px;
-    /* padding-top: 20px; */
     background-color: #000;
     margin-top: 60%;
     font-size: 20px;
@@ -277,22 +276,18 @@ body {
     background-color: #585757;
     height: 25vh;
     width: 100%;
-    /* display: inline; */
 }
 
 .arrow {
     height: 8vh;
     width: 13vw;
     margin: 50px;
-    /* text-align: center;
-    justify-content: center; */
     color: #fff;
     background-color: #000;
     border: none;
     font-family: "Open Sans";
     font-size: 15px;
     line-height: 22.5px;
-    /* text-decoration: none solid rgb(0, 0, 0); */
     text-align: center;
     vertical-align: middle;
     -align: middle;
@@ -301,7 +296,6 @@ body {
 .blog img {
     height: 14px;
     width: 14px;
-    /* margin-right: 30px; */
 }
 
 .block {
@@ -317,18 +311,6 @@ body {
     font-size: 17px;
     margin-top: 20px;
 }
-
-
-/* .den{
-    color: #fff;
-    background-color: #000;
-    margin-top: 35px;
-    height: 13vh;
-    font-size: 23px;
-    padding-left: 20px;
-    padding-top: 28px;
-} */
-
 
 /* blog section start */
 
