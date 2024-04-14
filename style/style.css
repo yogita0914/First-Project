@@ -95,7 +95,7 @@ body {
 }
 
 .jane {
-    background-image: url(/images/jane.jpg);
+    background-image: url(../images/jane.jpg);
     opacity: 1.0;
     min-height: 800px;
     background-position: center;
